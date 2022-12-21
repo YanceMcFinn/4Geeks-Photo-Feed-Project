@@ -1,16 +1,69 @@
-/*TESTING TO SEE IF THIS GETS ADDED*/
-.topBar {
+header {
+    position: relative;
+    top: -10px;
     width: 100%;
     background-color: white;
-    padding: 50px auto 50px 20px;
-}
-.titleDiv {
-    max
+    margin: auto;
+    padding: 15px 0;
+
 }
 h1 {
     font-family: "Arial";
+    margin: auto;
+    width: 40%;
+    font-size: 20px;
 }
 body {
     background-color: gainsboro;
     margin: 0;
+}
+.postName {
+    float: left;
+}
+.main-content-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+}
+.main-content-flex:before,
+.main-content-flex:after {
+  content:"";
+}
+.postNameandDate {
+    display: inline-block;
+    width: 100%;
+}
+.postDate {
+    float: right;
+    margin: 10px 10px 10px 0;
+    color:gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+.postName {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 10px;
+    font-size: 14px;
+}
+.mainPostDiv {
+    display: block;
+    background-color: white;
+    width: 40%;
+    font-size: 0px;
+}
+.postDescription {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+    font-size: 12px;
+}
+img {
+    margin: 0;
+    max-width: 100%;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
