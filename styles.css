@@ -11,7 +11,7 @@ h1 {
     font-family: "Arial";
     margin: auto;
     width: 40%;
-    font-size: 20px;
+    font-size: 24px;
 }
 body {
     background-color: gainsboro;
@@ -42,12 +42,12 @@ body {
     color:gainsboro;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 16px;
 }
 .postName {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0 10px 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .mainPostDiv {
     display: block;
@@ -59,7 +59,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 15px 10px 15px;
     margin: auto;
-    font-size: 12px;
+    font-size: 14px;
 }
 img {
     margin: 0;
