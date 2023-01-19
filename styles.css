@@ -70,5 +70,6 @@ img {
     height: 300px;
     object-fit: cover;
     overflow: hidden;
+    display: flex;
 
  }
