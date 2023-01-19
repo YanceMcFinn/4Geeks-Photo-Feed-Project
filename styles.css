@@ -63,7 +63,12 @@ body {
 }
 img {
     margin: 0;
-    max-width: 100%;
-    border-top: 1px solid gainsboro;
-    border-bottom: 1px solid gainsboro;
+    display: flex;
 }
+ .imgDiv {
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+
+ }
